@@ -1,13 +1,7 @@
-import Error from 'next/error';
-import React from 'react';
+import React from "react";
 
 const Page = () => {
-
- 
-
-    return (
-        <div>About</div>
-    );
-}
+  throw new Error("NOT IMPLEMENTED");
+};
 
 export default Page;
